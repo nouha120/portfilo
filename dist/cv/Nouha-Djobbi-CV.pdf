@@ -1,0 +1,104 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4709 >>
+stream
+BT /F2 25 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 785 Tm (NOUHA DJOBBI) Tj ET
+BT /F1 11 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 754 Tm (Software Engineering | Data Science | AI | Cybersecurity) Tj ET
+BT /F1 9 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 734 Tm (Bou Argoub, Nabeul, Tunisia | +216 22 362 591 | djobinouha130@gmail.com) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 713 Tm (Software engineering graduate pursuing a Master's in Data Science, with experience in mobile and) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 699 Tm (web development and a focus on AI-powered network security.) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 675 Tm (EXPERIENCE) Tj ET
+BT /F2 10 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 656 Tm (DataDoit | Feb 2025 ñ May 2025) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 640 Tm (Intelligent Mobile Application Development) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 626 Tm (- Designed and developed a cross-platform mobile app using Flutter.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 612 Tm (- Implemented authentication, database and notifications with Firebase.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 598 Tm (- Built backend services with Django REST Framework.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 584 Tm (- Integrated AI models to power intelligent features.) Tj ET
+BT /F2 10 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 564 Tm (Haltone Technologies | Jul 2024 ñ Aug 2024) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 548 Tm (Web Application Development ó E-learning Platform) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 534 Tm (- Contributed to an educational web app using Symfony and PHP.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 520 Tm (- Designed user interfaces with HTML, CSS and JavaScript.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 506 Tm (- Integrated dynamic pages and server-side logic.) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 476 Tm (PROJECTS) Tj ET
+BT /F2 10 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 457 Tm (SentinelAI ó Network Intrusion Detection) Tj ET
+BT /F1 8.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 441 Tm (Completed | Python, Pandas, NumPy, Scikit-learn) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 426 Tm (Machine-learning classifier that labels network connections as normal or malicious using the NSL-) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 412 Tm (KDD dataset.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 398 Tm (- Compares Logistic Regression and Random Forest) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 384 Tm (- Feature selection & hyperparameter tuning) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 370 Tm (- Class imbalance & threshold optimization) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 356 Tm (- Precision, recall, F1, confusion matrices, ROC) Tj ET
+BT /F2 10 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 336 Tm (SentinelAI ó Hybrid Intrusion Detection System) Tj ET
+BT /F1 8.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 320 Tm (In development | ML, Deep Learning, Anomaly Detection) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 305 Tm (Research project combining Machine Learning, Deep Learning and Anomaly Detection for network) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 291 Tm (traffic analysis.) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 277 Tm (- Supervised classification of known attacks) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 263 Tm (- Deep architectures for traffic analysis) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 249 Tm (- Anomaly detection for unseen attacks) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 235 Tm (- Benchmarking detection & false-positive rates) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 205 Tm (TECHNICAL SKILLS) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 186 Tm (Languages: Python, Java, PHP, JavaScript) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 172 Tm (Software & Web: Flutter, Django REST, Symfony, HTML, CSS) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 158 Tm (Data Science & AI: Machine Learning, Data Analysis, Pandas, NumPy, Scikit-learn) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 144 Tm (Cybersecurity: Network Security, Intrusion Detection, Vulnerability Analysis, SIEM) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 130 Tm (Databases & Cloud: SQL, Firebase) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 116 Tm (Tools: Linux, Git, GitHub, VS Code, Jupyter) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 92 Tm (EDUCATION) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 73 Tm (Master's Degree in Data Science | 2025 ñ Present) Tj ET
+BT /F1 9 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 59 Tm (ISLAI BÈja) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.43 rg 1 0 0 1 46 25 Tm (Nouha Djobbi | 1 / 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1187 >>
+stream
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 785 Tm (Bachelor's in Computer Science ó Software Engineering | 2022 ñ 2025) Tj ET
+BT /F1 9 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 771 Tm (ISLAI BÈja) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 754 Tm (Baccalaureate | 2022) Tj ET
+BT /F1 9 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 740 Tm (LycÈe de Bou Argoub) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 713 Tm (CERTIFICATIONS AND CHALLENGES) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 694 Tm (- Cyber Security Bootcamp ó CompTIA Security+ \(SY0-701\)) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 680 Tm (- Cisco Cybersecurity Certifications) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 666 Tm (- Python Certificate) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 652 Tm (- Smart City AI Challenge) Tj ET
+BT /F2 10 Tf 0.08 0.36 0.25 rg 1 0 0 1 46 628 Tm (LANGUAGES AND INTERESTS) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 609 Tm (Arabic | French | English) Tj ET
+BT /F1 9.5 Tf 0.16 0.20 0.19 rg 1 0 0 1 46 595 Tm (CTFs, TryHackMe and Hack The Box labs; machine learning and intrusion detection.) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.43 rg 1 0 0 1 46 25 Tm (Nouha Djobbi | 2 / 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000462 00000 n 
+0000005223 00000 n 
+0000005359 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6598
+%%EOF
