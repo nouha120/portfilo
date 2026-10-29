@@ -1,0 +1,88 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 5930 >>
+stream
+BT /F2 23 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 800 Tm (NOUHA DJOBBI) Tj ET
+BT /F2 11 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 771 Tm (Stage de 4 à 6 mois — Data Science · IA · Cybersécurité) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 752 Tm (Bou Argoub, Nabeul, Tunisie | +216 22 362 591 | djobinouha130@gmail.com) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 740 Tm (GitHub : github.com/nouha120 | LinkedIn : linkedin.com/in/nouha-djobbi-6a9b99422) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 727 m 555 727 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 718 Tm (PROFIL) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 701 Tm (Étudiante en master Data Science, diplômée en informatique, spécialité génie logiciel. Expérience en) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 689 Tm (développement mobile et web, intégration de modèles d'IA et classification de données. Je recherche un) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 677 Tm (stage de 4 à 6 mois pour contribuer à des projets en data science, intelligence artificielle ou) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 665 Tm (cybersécurité.) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 652 m 555 652 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 643 Tm (EXPÉRIENCES PROFESSIONNELLES) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 626 Tm (DataDoit — Stage de fin d'études \(PFE\) | Février – Mai 2025) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 612 Tm (- Développement mobile avec Flutter, services backend Django REST Framework et intégration Firebase) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 600 Tm (  pour l'authentification, les données et les notifications.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 588 Tm (- Projet Lightway : intégration de YOLOv8, FLAN-T5 et Sentence-BERT pour la vérification d'activités à) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 576 Tm (  partir de photos ; expérimentation de Random Forest et XGBoost pour le risque géographique.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 564 Tm (- Développement d'API communautaires et conception de modèles de suivi du rétablissement.) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 552 Tm (Haltone Technologies — Stage en développement web | Juillet – Août 2024) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 538 Tm (- Contribution à une plateforme e-learning avec Symfony et PHP ; interfaces HTML, CSS et JavaScript et) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 526 Tm (  intégration de pages dynamiques.) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 513 m 555 513 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 504 Tm (PROJETS SÉLECTIONNÉS) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 487 Tm (SentinelAI — Détection d'intrusions réseau | Projet réalisé) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 473 Tm (- Classification du trafic NSL-KDD avec régression logistique et Random Forest ; sélection de) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 461 Tm (  variables, réglage des hyperparamètres et analyse des seuils, du rappel et des faux positifs.) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 449 Tm (SentinelAI — Détection hybride d'attaques connues et inédites | En cours) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 435 Tm (- Nettoyage et analyse de CIC-IDS2017 ; modèles de référence Random Forest et XGBoost ; expériences) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 423 Tm (  CNN, LSTM et CNN-LSTM en cours de validation.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 411 Tm (- Comparaison des modèles sur des partitions cohérentes ; détection d'anomalies et pipeline) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 399 Tm (  Kafka/API/tableau de bord prévus.) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 387 Tm (PhishGuard LLM — Analyse du phishing | En préparation / développement) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 373 Tm (- Conception d'un système de classification d'e-mails et d'explications fondées sur des indices,) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 361 Tm (  combinant NLP, modèles de classification, Transformers et LLM.) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 348 m 555 348 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 339 Tm (COMPÉTENCES TECHNIQUES) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 322 Tm (Programmation : Python, Java, JavaScript, PHP, SQL.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 310 Tm (Analyse de données & Machine Learning : Pandas, NumPy, Scikit-learn, XGBoost.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 298 Tm (Deep Learning & IA : TensorFlow, Keras, PyTorch, NLP, vision par ordinateur.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 286 Tm (Développement web & mobile : React, Flutter, Django REST Framework, Symfony, HTML/CSS.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 274 Tm (Services cloud : Firebase.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 262 Tm (Cybersécurité : sécurité réseau, détection d'intrusions ; Wazuh \(formation universitaire\).) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 250 Tm (Big Data — formation universitaire : Apache Kafka, Apache Spark, Apache HBase.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 238 Tm (DevOps & supervision — formation universitaire : Docker, Kubernetes, Grafana, Ansible, Terraform.) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 226 Tm (Environnement & outils : Linux, Git/GitHub, Jupyter Notebook, Postman.) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 213 m 555 213 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 204 Tm (FORMATION) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 187 Tm (Master en Data Science — ISLAI Béja | Depuis 2025) Tj ET
+BT /F2 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 173 Tm (Licence en informatique, spécialité génie logiciel — ISLAI Béja | 2022 – 2025) Tj ET
+0.78 0.85 0.84 RG 0.5 w 40 158 m 555 158 l S
+BT /F2 10 Tf 0.06 0.34 0.31 rg 1 0 0 1 40 149 Tm (LANGUES & ACTIVITÉS) Tj ET
+BT /F1 9 Tf 0.13 0.17 0.20 rg 1 0 0 1 40 132 Tm (Arabe, français, anglais. Pratique des CTF et des laboratoires TryHackMe / Hack The Box.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000354 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6438
+%%EOF

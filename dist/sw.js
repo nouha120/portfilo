@@ -14,7 +14,7 @@ self.addEventListener("install", event => {
     await cache.addAll([...new Set(resources.map(url => url.href))]);
     await cache.put(HOME, response);
     // A CV download remains available offline after the first successful visit.
-    try { await cache.add(assetURL("cv/Nouha-Djobbi-CV.pdf")); } catch { /* Optional document. */ }
+    try { await cache.add(assetURL("cv/cv.pdf")); } catch { /* Optional document. */ }
     await self.skipWaiting();
   })());
 });

@@ -14,6 +14,37 @@ export default function ProjectCarousel({ children, language }: { children: Reac
   useEffect(() => {
     const element = track.current;
     if (!element) return;
+    let frame = 0;
+    let previousWidth = -1;
+    let disposed = false;
+    const alignCards = () => {
+      if (disposed) return;
+      // Match each summary row without clipping long titles or translated copy.
+      for (const selector of [".work-identity", ".work-main h3", ".work-description", ".work-tags", ".work-links"]) {
+        const rows = [...element.querySelectorAll<HTMLElement>(selector)];
+        rows.forEach(row => { row.style.minHeight = "0"; });
+        const height = Math.ceil(Math.max(0, ...rows.map(row => row.getBoundingClientRect().height)));
+        rows.forEach(row => { row.style.minHeight = `${height}px`; });
+      }
+    };
+    const observer = new ResizeObserver(([entry]) => {
+      if (entry.contentRect.width === previousWidth) return;
+      previousWidth = entry.contentRect.width;
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(alignCards);
+    });
+    observer.observe(element);
+    void document.fonts.ready.then(alignCards);
+    return () => {
+      disposed = true;
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  }, [language]);
+
+  useEffect(() => {
+    const element = track.current;
+    if (!element) return;
     const update = () => {
       const position = Math.abs(element.scrollLeft);
       const cards = [...element.querySelectorAll<HTMLElement>(".work-item")];

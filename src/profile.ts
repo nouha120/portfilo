@@ -3,7 +3,7 @@
 export const profile = {
   // Add your portrait to public/images/ and enter its path here.
   photoPath: "images/nouha.jpg",
-  cvPath: `${import.meta.env.BASE_URL}cv/Nouha-Djobbi-CV.pdf`,
+  cvPath: `${import.meta.env.BASE_URL}cv/cv.pdf`,
   linkedin: "https://www.linkedin.com/in/nouha-djobbi-6a9b99422",
   github: "https://github.com/nouha120",
 };

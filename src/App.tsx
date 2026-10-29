@@ -1,4 +1,5 @@
 import AboutPortrait from "./AboutPortrait";
+import ContactForm from "./ContactForm";
 import ProjectCarousel from "./ProjectCarousel";
 import ProjectCard from "./ProjectCard";
 import { profile } from "./profile";
@@ -34,6 +35,14 @@ const experience = [
 
 const projects = [
   {
+    name: "Lightway — AI-Powered Addiction Recovery Application",
+    desc: "My final-year (PFE) internship project: a Flutter and Django application combining AI-assisted recovery activities, geographical risk prediction, progress tracking and community support.",
+    tags: ["Flutter", "Django", "Firebase", "Computer Vision", "NLP", "Machine Learning"],
+    points: [],
+    status: "PFE internship project",
+  },
+
+  {
     name: "SentinelAI — Network Intrusion Detection",
     desc: "Machine-learning classifier that labels network connections as normal or malicious using the NSL-KDD dataset.",
     tags: ["Python", "Pandas", "NumPy", "Scikit-learn"],
@@ -46,38 +55,41 @@ const projects = [
     status: "Completed",
   },
   {
-    name: "SentinelAI — Hybrid Intrusion Detection System",
-    desc: "Research project combining Machine Learning, Deep Learning and Anomaly Detection for network traffic analysis.",
-    tags: ["ML", "Deep Learning", "Anomaly Detection"],
+    name: "SentinelAI — A Real-Time Hybrid Intrusion Detection System for Known and Unseen Cyberattacks",
+    desc: "Cybersecurity research using CIC-IDS2017 to detect malicious network traffic with machine learning and deep learning, while exploring anomaly detection for previously unseen threats.",
+    tags: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "TensorFlow", "Keras", "Jupyter Notebook"],
     points: [
-      "Supervised classification of known attacks",
-      "Deep architectures for traffic analysis",
-      "Anomaly detection for unseen attacks",
-      "Benchmarking detection & false-positive rates",
+      "Cleaned CIC-IDS2017 data: handled missing and infinite values and removed duplicates.",
+      "Analyzed class distributions, attack categories and dataset characteristics.",
+      "Developed and evaluated Random Forest and XGBoost baselines.",
+      "Worked on CNN, LSTM and CNN-LSTM architectures for traffic classification.",
+      "Prepared experiments using accuracy, precision, recall, F1-score and classification reports.",
+      "Organized preprocessing, analysis, training and model comparison in Jupyter notebooks.",
     ],
     status: "In development",
   },
   {
-    name: "PhishLens — NLP-Assisted Phishing Analysis",
-    desc: "An early-stage project exploring NLP and language models to analyse suspicious emails and explain possible phishing signals.",
-    tags: ["Python", "NLP", "LLM", "Cybersecurity"],
+    name: "PhishGuard LLM",
+    desc: "An AI-powered phishing analysis project exploring email classification, social-engineering detection and evidence-based explanations through NLP, machine learning and LLMs.",
+    tags: ["LLM", "NLP", "Machine Learning", "Cybersecurity"],
     points: [
       "Planned: prepare a labelled phishing and legitimate email dataset",
       "Planned: establish a text-classification baseline",
       "Planned: explore LLM explanations grounded in email content",
       "Planned: evaluate precision, recall and false positives on held-out emails",
     ],
-    status: "Just started",
+    status: "Planned / In Progress",
   },
 ];
 
 const skills = [
   { icon: Code2, title: "Languages", items: ["Python", "Java", "PHP", "JavaScript"] },
-  { icon: Code2, title: "Software & Web", items: ["Flutter", "Django REST", "Symfony", "HTML", "CSS"] },
+  { icon: Code2, title: "Software & Web", items: ["React", "Flutter", "Django REST", "Symfony", "HTML", "CSS"] },
   { icon: Brain, title: "Data Science & AI", items: ["Machine Learning", "Data Analysis", "Pandas", "NumPy", "Scikit-learn"] },
   { icon: Shield, title: "Cybersecurity", items: ["Network Security", "Intrusion Detection", "Vulnerability Analysis", "SIEM"] },
   { icon: Code2, title: "Databases & Cloud", items: ["SQL", "Firebase"] },
   { icon: Code2, title: "Tools", items: ["Linux", "Git", "GitHub", "VS Code", "Jupyter"] },
+  { icon: Code2, title: "University Coursework", items: ["Apache Kafka", "Apache Spark", "Apache HBase", "Wazuh", "Kubernetes", "Docker", "Grafana", "Ansible", "Terraform"] },
 ];
 
 const education = [
@@ -99,6 +111,7 @@ function SectionTitle({ n, label, children }: { n: string; label: string; childr
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [contactFormOpen, setContactFormOpen] = useState(false);
   const [preferenceOpen, setPreferenceOpen] = useState<"language" | "theme" | null>(null);
   const [activeSection, setActiveSection] = useState("");
   const [copyStatus, setCopyStatus] = useState<"idle" | "copied" | "error">("idle");
@@ -210,9 +223,9 @@ export default function App() {
           <div className="hero-copy">
             <p className="availability"><span /> {t("OPEN TO IDEAS & COLLABORATIONS")}</p>
             <p className="hero-intro">{t("Hello, I'm Nouha Djobbi")} <span className="hello-star">&#10035;</span></p>
-            <h1>{t("Engineering")}<br />{t("a")} <span>{t("smarter")}</span><br />{t("tomorrow")}<span className="hero-period">.</span></h1>
+            <h1 className="hero-impact-title">{t("Building intelligent systems.")}<br /><span>{t("Creating meaningful impact.")}</span></h1>
             <p className="hero-description">{t("Software engineer. Data science explorer.")}<br />{t("Building intelligent solutions for a more secure world.")}</p>
-            <div className="hero-buttons"><a href="#projects" className="hero-primary">{t("Explore my work")} <ArrowUpRight size={19} /></a><a href="mailto:djobinouha130@gmail.com" className="hero-secondary">{t("Let's connect")} <ArrowUpRight size={17} /></a></div>
+            <div className="hero-buttons"><a href="#projects" className="hero-primary">{t("Explore my work")} <ArrowUpRight size={19} /></a><a href="#contact" onClick={() => setContactFormOpen(true)} aria-controls="contact-form-panel" aria-expanded={contactFormOpen} className="hero-secondary">{t("Let's connect")} <ArrowUpRight size={17} /></a></div>
             <div className="hero-footnote"><MapPin size={13} /> {t("Tunisia")} <span>/</span> {t("Data Science & AI")} <span>/</span> {t("Cybersecurity")}</div>
           </div>
           <div className="intelligence-visual" role="img" aria-label={t("Abstract luminous green sphere connecting artificial intelligence, data science and cybersecurity")}>
@@ -220,7 +233,7 @@ export default function App() {
             <div className="sphere"><div className="sphere-latitude latitude-one" /><div className="sphere-latitude latitude-two" /><div className="sphere-latitude latitude-three" /><div className="sphere-meridian meridian-one" /><div className="sphere-meridian meridian-two" /><div className="sphere-meridian meridian-three" /><div className="sphere-equator" /></div>
             <div className="orbit orbit-one" /><div className="orbit orbit-two" />
             <div className="linear-label-track track-ai"><span className="label-travel-point" aria-hidden="true" /><div className="floating-label label-ai"><Brain size={19} /><div><span>{t("INTELLIGENCE")}</span><strong>{t("AI & machine learning")}</strong></div></div></div>
-            <div className="linear-label-track track-security"><span className="label-travel-point" aria-hidden="true" /><div className="floating-label label-security"><Fingerprint size={22} /><div><span>{t("PROTECTION")}</span><strong>{t("Security by design")}</strong></div></div></div>
+            <div className="linear-label-track track-security"><span className="label-travel-point" aria-hidden="true" /><div className="floating-label label-security"><Fingerprint size={22} /><div><span>{t("PROTECTION")}</span><strong>{t("Security")}</strong></div></div></div>
             <span className="visual-cross cross-one">+</span><span className="visual-cross cross-two">+</span>
             <div className="visual-signature"><span className="signal-dot" /> {t("CURIOUS MIND. CONNECTED IDEAS.")}</div>
           </div>
@@ -246,9 +259,9 @@ export default function App() {
         <section id="education" className="scroll-mt-24"><SectionTitle label={t("THE PORTFOLIO")} n="05">{t("Education & Certifications")}</SectionTitle><div className="grid gap-10 md:grid-cols-2"><div className="space-y-6">{education.map(e => <div key={e.title}><p className="font-mono text-sm text-accent">{t(e.date)}</p><h3 className="text-lg font-semibold">{t(e.title)}</h3><p className="text-muted-foreground">{t(e.school)}</p></div>)}</div><ul className="space-y-3">{certs.map(c => <li key={c} className="flex items-start gap-3 rounded border border-border bg-card p-4"><Award className="mt-0.5 h-5 w-5 shrink-0 text-primary" />{t(c)}</li>)}</ul></div></section>
         <section id="cv" className="cv-section scroll-mt-24" aria-labelledby="cv-title">
           <div><p className="section-kicker">06 / {t("My CV")}</p><h2 id="cv-title">{t("The essentials, in one document.")}</h2><p className="cv-description">{t("Download my CV for an overview of my experience, education and technical skills.")}</p></div>
-          <div className="cv-document"><FileText size={42} strokeWidth={1.2} aria-hidden="true" /><div><h3>{t("Nouha Djobbi")}</h3><p>{t("PDF · English")}</p></div><div className="cv-actions"><a className="icon-button" href={profile.cvPath} target="_blank" rel="noopener noreferrer" title={t("View CV")} aria-label={t("View CV")}><ExternalLink size={19} /></a><a className="icon-button download-button" href={profile.cvPath} download="Nouha-Djobbi-CV.pdf" title={t("Download CV")} aria-label={t("Download CV")}><Download size={20} /></a></div></div>
+          <div className="cv-document"><FileText size={42} strokeWidth={1.2} aria-hidden="true" /><div><h3>{t("Nouha Djobbi")}</h3><p>{"PDF"}</p></div><div className="cv-actions"><a className="icon-button" href={profile.cvPath} target="_blank" rel="noopener noreferrer" title={t("View CV")} aria-label={t("View CV")}><ExternalLink size={19} /></a><a className="icon-button download-button" href={profile.cvPath} download="Nouha-Djobbi-CV.pdf" title={t("Download CV")} aria-label={t("Download CV")}><Download size={20} /></a></div></div>
         </section>
-        <section id="contact" className="contact-panel scroll-mt-24 text-center"><p className="font-mono text-primary">{t("07. What's next?")}</p><h2 className="mt-4 text-4xl font-bold md:text-5xl">{t("Let's build something")}<br /><span className="text-primary">{t("meaningful.")}</span></h2><p className="mx-auto mt-6 max-w-xl text-muted-foreground">{t("Open to internships, collaborations and projects in Data Science, AI, Software Engineering and Cybersecurity.")}</p><div className="mt-10 flex flex-col items-center justify-center gap-4 font-mono sm:flex-row"><a href="mailto:djobinouha130@gmail.com" className="flex items-center gap-2 rounded bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow"><Mail className="h-4 w-4" /><bdi>djobinouha130@gmail.com</bdi></a><a href="tel:+21622362591" className="flex items-center gap-2 rounded border border-primary px-6 py-3 text-sm text-primary"><Phone className="h-4 w-4" /><bdi dir="ltr">+216 22 362 591</bdi></a></div><div className="copy-email"><span>{t("Prefer to copy the address?")}</span><button className="icon-button" type="button" title={t(copyStatus === "copied" ? "Email copied" : "Copy email")} aria-label={t(copyStatus === "copied" ? "Email copied" : "Copy email")} onClick={copyEmail}>{copyStatus === "copied" ? <Check size={15} /> : <Copy size={15} />}</button><p role="status" aria-live="polite">{copyStatus === "error" ? t("Couldn't copy. Use the email link above or select the address.") : copyStatus === "copied" ? t("Email copied") : ""}</p></div><div className="social-links" aria-label={t("Let's connect")}>{([["LinkedIn", profile.linkedin, Linkedin], ["GitHub", profile.github, Github]] as const).map(([label,url,Icon]) => url ? <a key={label} className="icon-button" href={url} target="_blank" rel="noopener noreferrer" title={label} aria-label={label}><Icon size={20} /></a> : <button key={label} className="icon-button" type="button" disabled title={`${label}: ${t("Profile coming soon")}`} aria-label={`${label}: ${t("Profile coming soon")}`}><Icon size={20} /></button>)}</div></section>
+        <section id="contact" className="contact-panel scroll-mt-24 text-center"><p className="font-mono text-primary">{t("07. What's next?")}</p><h2 className="mt-4 text-4xl font-bold md:text-5xl">{t("Let's build something")}<br /><span className="text-primary">{t("meaningful.")}</span></h2><p className="mx-auto mt-6 max-w-xl text-muted-foreground">{t("Open to internships, collaborations and projects in Data Science, AI, Software Engineering and Cybersecurity.")}</p><div className="contact-form-toggle"><button type="button" aria-controls="contact-form-panel" aria-expanded={contactFormOpen} onClick={() => setContactFormOpen(open => !open)}>{t(contactFormOpen ? "Close contact form" : "Let's connect")}</button></div><div id="contact-form-panel" hidden={!contactFormOpen}>{contactFormOpen && <ContactForm language={language} />}</div><div className="mt-10 flex flex-col items-center justify-center gap-4 font-mono sm:flex-row"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=djobinouha130%40gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow"><Mail className="h-4 w-4" /><bdi>djobinouha130@gmail.com</bdi></a><a href="tel:+21622362591" className="flex items-center gap-2 rounded border border-primary px-6 py-3 text-sm text-primary"><Phone className="h-4 w-4" /><bdi dir="ltr">+216 22 362 591</bdi></a></div><div className="copy-email"><span>{t("Prefer to copy the address?")}</span><button className="icon-button" type="button" title={t(copyStatus === "copied" ? "Email copied" : "Copy email")} aria-label={t(copyStatus === "copied" ? "Email copied" : "Copy email")} onClick={copyEmail}>{copyStatus === "copied" ? <Check size={15} /> : <Copy size={15} />}</button><p role="status" aria-live="polite">{copyStatus === "error" ? t("Couldn't copy. Use the email link above or select the address.") : copyStatus === "copied" ? t("Email copied") : ""}</p></div><div className="social-links" aria-label={t("Let's connect")}>{([["LinkedIn", profile.linkedin, Linkedin], ["GitHub", profile.github, Github]] as const).map(([label,url,Icon]) => url ? <a key={label} className="icon-button" href={url} target="_blank" rel="noopener noreferrer" title={label} aria-label={label}><Icon size={20} /></a> : <button key={label} className="icon-button" type="button" disabled title={`${label}: ${t("Profile coming soon")}`} aria-label={`${label}: ${t("Profile coming soon")}`}><Icon size={20} /></button>)}</div></section>
       </div>
     </main>
       <div className="focus-strip"><span>{t("DATA SCIENCE")}</span><span>&#10035;</span><span>{t("ARTIFICIAL INTELLIGENCE")}</span><span>&#10035;</span><span>{t("CYBERSECURITY")}</span><span>&#10035;</span><span>{t("SOFTWARE ENGINEERING")}</span></div>
