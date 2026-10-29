@@ -729,3 +729,15 @@ footer.minimal-footer { display: flex; align-items: center; gap: 16px; max-width
 .contact-form.recruiter-contact button:hover { background: color-mix(in oklab,var(--primary) 85%,var(--foreground)); border-color: color-mix(in oklab,var(--primary) 85%,var(--foreground)); color: var(--primary-foreground); }
 .contact-form.recruiter-contact button:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
 @media(max-width:540px) { .contact-form.recruiter-contact { gap: 22px; }.recruiter-contact-heading p { font-size: 15px; }.contact-form.recruiter-contact input,.contact-form.recruiter-contact select,.contact-form.recruiter-contact textarea { font-size: 16px; } }
+
+/* Version 1.1: comfortable mobile cards and recruiter form controls. */
+@media(max-width:480px) {
+  .case-study-grid.project-track { grid-auto-columns: 100%; gap: 16px; }
+  .project-track>.work-item { padding: 20px; }
+  .project-track .work-main h3 { font-size: 22px; line-height: 1.35; letter-spacing: -.4px; }
+  .project-track .work-description { font-size: 13px; line-height: 1.75; }
+  .contact-form.recruiter-contact { padding: 20px 16px; }
+  .contact-form.recruiter-contact select { padding-inline: 10px; font-size: 16px; }
+  .contact-form.recruiter-contact button { white-space: normal; text-align: center; }
+  .work-expand>summary { min-height: 48px; }
+}
